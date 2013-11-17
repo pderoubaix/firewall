@@ -1,5 +1,5 @@
 <?php
-namespace Stack;
+namespace Pderoubaix\Stack;
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
