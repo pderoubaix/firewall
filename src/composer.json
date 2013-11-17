@@ -1,0 +1,28 @@
+{
+    "name": "stack/firewall",
+    "description": "firewall middleware.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Patrick Deroubaix",
+            "email": "patrick.deroubaix@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Stack\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/http-kernel": "~2.1",
+        "symfony/http-foundation": "~2.1",
+        "m6web/firewall": "dev-master"
+    },
+    "require-dev": {
+        "stack/callable-http-kernel": "~1.0@dev",
+        "phpunit/phpunit": "~3.7",
+        "silex/silex": "~1.0@dev",
+        "stack/builder": "~1.0@dev"
+    }
+}
