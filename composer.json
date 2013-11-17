@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-0": {
-            "Pderoubaux\\Stack\\": "src/"
+            "Pderoubaix\\Stack\\": "src/"
         }
     },
     "require": {
