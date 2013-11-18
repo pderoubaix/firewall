@@ -1,6 +1,6 @@
 {
-    "name": "stack/firewall",
-    "description": "firewall middleware.",
+    "name": "pderoubaix/stack-firewall",
+    "description": "stackphp firewall middleware.",
     "license": "MIT",
     "authors": [
         {
