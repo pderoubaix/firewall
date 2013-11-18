@@ -40,10 +40,9 @@ class Firewall implements HttpKernelInterface
     {
 
         $connAllowed = $this->firewall->handle();
-        var_dump($connAllowed);
+
         if (!$connAllowed) {
-            var_dump('lll');
-            return new Response(sprintf('IP %s is not allowed.', 'll'), 403);
+            return new Response(sprintf('IP %s is not allowed.', $request->getClientIp()), 403);
         }
 
         return $this->app->handle($request, $type, $catch);
